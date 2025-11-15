@@ -16,7 +16,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "aqua_affinity": 1
                                 }
                             }
@@ -35,7 +35,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "bane_of_arthropods": 5
                                 }
                             }
@@ -54,45 +54,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
-                                    "blast_protection": 4
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:enchanted_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:enchantments": {
-                                    "channeling": 1
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:enchanted_book",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "binding_curse": 1
                                 }
                             }
@@ -111,8 +73,8 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
-                                    "vanishing_curse": 1
+                                "minecraft:stored_enchantments": {
+                                    "blast_protection": 4
                                 }
                             }
                         }
@@ -130,7 +92,64 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
+                                    "breach": 4
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:stored_enchantments": {
+                                    "channeling": 1
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:stored_enchantments": {
+                                    "density": 5
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:stored_enchantments": {
                                     "depth_strider": 3
                                 }
                             }
@@ -149,7 +168,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "efficiency": 5
                                 }
                             }
@@ -168,7 +187,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "feather_falling": 4
                                 }
                             }
@@ -187,7 +206,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "fire_aspect": 2
                                 }
                             }
@@ -206,7 +225,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "fire_protection": 4
                                 }
                             }
@@ -225,7 +244,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "flame": 1
                                 }
                             }
@@ -244,7 +263,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "fortune": 3
                                 }
                             }
@@ -263,7 +282,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "frost_walker": 2
                                 }
                             }
@@ -282,7 +301,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "impaling": 5
                                 }
                             }
@@ -301,7 +320,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "infinity": 1
                                 }
                             }
@@ -320,7 +339,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "knockback": 2
                                 }
                             }
@@ -339,7 +358,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "looting": 3
                                 }
                             }
@@ -358,7 +377,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "loyalty": 3
                                 }
                             }
@@ -377,7 +396,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "luck_of_the_sea": 3
                                 }
                             }
@@ -396,7 +415,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "lure": 3
                                 }
                             }
@@ -415,7 +434,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "mending": 1
                                 }
                             }
@@ -434,7 +453,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "multishot": 1
                                 }
                             }
@@ -453,7 +472,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "piercing": 4
                                 }
                             }
@@ -472,7 +491,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "power": 5
                                 }
                             }
@@ -491,7 +510,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "projectile_protection": 4
                                 }
                             }
@@ -510,7 +529,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "protection": 4
                                 }
                             }
@@ -529,7 +548,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "knockback": 2
                                 }
                             }
@@ -548,7 +567,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "quick_charge": 3
                                 }
                             }
@@ -567,7 +586,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "respiration": 3
                                 }
                             }
@@ -586,7 +605,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "riptide": 3
                                 }
                             }
@@ -605,7 +624,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "sharpness": 5
                                 }
                             }
@@ -624,7 +643,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "silk_touch": 1
                                 }
                             }
@@ -643,7 +662,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "smite": 5
                                 }
                             }
@@ -662,7 +681,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "soul_speed": 3
                                 }
                             }
@@ -681,7 +700,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "sweeping_edge": 3
                                 }
                             }
@@ -700,7 +719,26 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
+                                    "swift_sneak": 3
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:stored_enchantments": {
                                     "thorns": 3
                                 }
                             }
@@ -719,8 +757,46 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "unbreaking": 3
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:stored_enchantments": {
+                                    "vanishing_curse": 1
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:stored_enchantments": {
+                                    "wind_burst": 3
                                 }
                             }
                         }
