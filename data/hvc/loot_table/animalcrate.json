@@ -282,6 +282,17 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "minecraft:sniffer_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:turtle_spawn_egg",
                     "functions": [
                         {
