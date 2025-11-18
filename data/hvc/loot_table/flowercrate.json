@@ -161,28 +161,6 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:tall_grass",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 16
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:large_fern",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 16
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
                     "name": "minecraft:cornflower",
                     "functions": [
                         {
@@ -210,28 +188,6 @@
                         {
                             "function": "set_count",
                             "count": 4
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:crimson_roots",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 16
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:warped_roots",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 16
                         }
                     ]
                 },
