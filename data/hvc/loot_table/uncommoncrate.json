@@ -95,17 +95,6 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:wither_rose",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 16
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
                     "name": "minecraft:candle",
                     "functions": [
                         {
