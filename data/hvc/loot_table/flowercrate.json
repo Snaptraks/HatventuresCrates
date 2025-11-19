@@ -183,6 +183,28 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "minecraft:wildflowers",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:pink_petals",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:wither_rose",
                     "functions": [
                         {
