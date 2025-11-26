@@ -1,0 +1,1008 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "hvc:elfoutfit"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:emerald",
+                                    "pattern": "minecraft:tide"
+                                },
+                                "minecraft:dyed_color": 1908001,
+                                "minecraft:enchantments": {
+                                    "aqua_affinity": 1,
+                                    "respiration": 10,
+                                    "unbreaking": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763326025053",
+                                        "type": "scale",
+                                        "amount": 0.25,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#3660DD",
+                                    "text": "T",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#3465D6",
+                                    "text": "h",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#336AD0",
+                                    "text": "e ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#316FC9",
+                                    "text": "H",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2F74C2",
+                                    "text": "a",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2D78BB",
+                                    "text": "t ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2C7DB5",
+                                    "text": "o",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2A82AE",
+                                    "text": "f ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2887A7",
+                                    "text": "t",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#278CA1",
+                                    "text": "h",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#25919A",
+                                    "text": "e ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#239693",
+                                    "text": "F",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#219B8C",
+                                    "text": "l",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#209F86",
+                                    "text": "y",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#1EA47F",
+                                    "text": "i",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#1CA978",
+                                    "text": "n",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#1AAE71",
+                                    "text": "g ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#19B36B",
+                                    "text": "D",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#17B864",
+                                    "text": "u",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#15BD5D",
+                                    "text": "t",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#14C257",
+                                    "text": "c",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#12C650",
+                                    "text": "h",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#10CB49",
+                                    "text": "m",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#0ED042",
+                                    "text": "a",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#0BDA35",
+                                    "text": "n",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Wearing this, you'll be decked out!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:emerald",
+                                    "pattern": "minecraft:tide"
+                                },
+                                "minecraft:dyed_color": 1908001,
+                                "minecraft:enchantments": {
+                                    "depth_strider": 3,
+                                    "frost_walker": 2,
+                                    "unbreaking": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763326350304",
+                                        "type": "scale",
+                                        "amount": 0.25,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#3660DD",
+                                    "text": "T",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#3465D7",
+                                    "text": "h",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#3369D1",
+                                    "text": "e ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#316ECA",
+                                    "text": "B",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#3072C4",
+                                    "text": "o",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2E77BE",
+                                    "text": "o",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2C7BB8",
+                                    "text": "t",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2B80B1",
+                                    "text": "s ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2984AB",
+                                    "text": "o",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#2889A5",
+                                    "text": "f ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#268D9F",
+                                    "text": "t",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#249299",
+                                    "text": "h",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#239692",
+                                    "text": "e ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#219B8C",
+                                    "text": "F",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#209F86",
+                                    "text": "l",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#1EA480",
+                                    "text": "y",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#1DA879",
+                                    "text": "i",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#1BAD73",
+                                    "text": "n",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#19B16D",
+                                    "text": "g ",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#18B667",
+                                    "text": "D",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#16BA61",
+                                    "text": "u",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#15BF5A",
+                                    "text": "t",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#13C354",
+                                    "text": "c",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#11C84E",
+                                    "text": "h",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#10CC48",
+                                    "text": "m",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#0ED141",
+                                    "text": "a",
+                                    "italic": false
+                                },
+                                {
+                                    "color": "#0BDA35",
+                                    "text": "n",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Arr, these be some salty clogs!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763248176431",
+                                        "type": "entity_interaction_range",
+                                        "amount": 64,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    }
+                                ],
+                                "minecraft:enchantment_glint_override": true
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "text": "Epic Barge Pole of Poking",
+                                    "italic": false,
+                                    "color": "gold"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "For when you ",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "REALLY",
+                                        "italic": true
+                                    },
+                                    {
+                                        "text": " want to poke ",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "something at a distance",
+                                        "italic": false
+                                    }
+                                ]
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:horse_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:horse",
+                                    "Tame": true,
+                                    "CustomName": {
+                                        "color": "dark_red",
+                                        "text": "Honsius Maximus"
+                                    },
+                                    "attributes": [
+                                        {
+                                            "id": "minecraft:fall_damage_multiplier",
+                                            "base": 0
+                                        },
+                                        {
+                                            "id": "minecraft:jump_strength",
+                                            "base": 16
+                                        },
+                                        {
+                                            "id": "minecraft:scale",
+                                            "base": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "dark_red",
+                                    "italic": false,
+                                    "text": "Honsius Maximus"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "The most horse a man can get."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "custom_color": 16710973,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:levitation",
+                                            "amplifier": 20,
+                                            "duration": 1200
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "text": "Arrows of the Cloud"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Send the recipient into the Heavens!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:dragon_head",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:glider": {},
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "entity.ender_dragon.ambient"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#DD00E0",
+                                    "text": "D"
+                                },
+                                {
+                                    "color": "#D502DE",
+                                    "text": "r"
+                                },
+                                {
+                                    "color": "#CC03DC",
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#C405DB",
+                                    "text": "g"
+                                },
+                                {
+                                    "color": "#BB06D9",
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#B308D7",
+                                    "text": "n"
+                                },
+                                {
+                                    "color": "#AA09D5",
+                                    "text": "'"
+                                },
+                                {
+                                    "color": "#A20BD3",
+                                    "text": "s "
+                                },
+                                {
+                                    "color": "#990CD1",
+                                    "text": "H"
+                                },
+                                {
+                                    "color": "#910ED0",
+                                    "text": "e"
+                                },
+                                {
+                                    "color": "#880FCE",
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#7712CA",
+                                    "text": "d"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Glide like a dragon."
+                                },
+                                {
+                                    "italic": false,
+                                    "text": "DO NOT PLACE IN THE WORLD"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:profile": {
+                                    "properties": [
+                                        {
+                                            "name": "textures",
+                                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZhOWI1YThhOTk4YzYwZDU3ZjYwZThlMjViZWI3Y2E1ZTliNmRiMzJhZTUzYmY1NmMxOTdlNDU2YTlkZDc1MCJ9fX0"
+                                        }
+                                    ]
+                                },
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "entity.villager.ambient"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#bc6924",
+                                    "italic": false,
+                                    "text": "Villager \"Hat\""
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Hmm."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:wolf_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:wolf",
+                                    "variant": "rusty",
+                                    "CollarColor": 14,
+                                    "CustomName": "Clifford",
+                                    "attributes": [
+                                        {
+                                            "id": "minecraft:scale",
+                                            "base": 4
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "dark_red",
+                                    "italic": false,
+                                    "text": "Clifford"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Make sure you have plenty of meat."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:frog_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:frog",
+                                    "variant": "cold",
+                                    "CustomName": "George",
+                                    "attributes": [
+                                        {
+                                            "id": "minecraft:scale",
+                                            "base": 100
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "green",
+                                    "italic": false,
+                                    "text": "Lorge Frorge"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "He Lorge, He Frorge"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:cat_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:cat",
+                                    "variant": "jellie",
+                                    "CollarColor": 6,
+                                    "attributes": [
+                                        {
+                                            "id": "minecraft:scale",
+                                            "base": 0.5
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "yellow",
+                                    "italic": false,
+                                    "text": "Smol Cat"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "SO SMOL TᴖT"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:redstone",
+                                    "pattern": "minecraft:tide"
+                                },
+                                "minecraft:dyed_color": 16383998,
+                                "minecraft:enchantments": {
+                                    "feather_falling": 7
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763975401188",
+                                        "type": "gravity",
+                                        "amount": -0.06,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    },
+                                    {
+                                        "id": "1763975401189",
+                                        "type": "safe_fall_distance",
+                                        "amount": 10,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "equip_sound": "ambient.cave",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#531EE6",
+                                    "text": "M"
+                                },
+                                {
+                                    "color": "#4E2BE1",
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#4939DD",
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#4346D8",
+                                    "text": "n "
+                                },
+                                {
+                                    "color": "#3E53D3",
+                                    "text": "B"
+                                },
+                                {
+                                    "color": "#3961CF",
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#346ECA",
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#2E7BC5",
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#2496BC",
+                                    "text": "s"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "They seen to have \"FB\" written on them."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763246419651",
+                                        "type": "gravity",
+                                        "amount": -0.084,
+                                        "operation": "add_value",
+                                        "slot": "offhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "text": "Feather of Flight"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Hold in offhand to slowly levitate."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763246419652",
+                                        "type": "gravity",
+                                        "amount": -0.08,
+                                        "operation": "add_value",
+                                        "slot": "offhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "text": "Feather of Hovering"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Hold in offhand to hover."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

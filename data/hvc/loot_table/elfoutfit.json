@@ -1,0 +1,272 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:redstone",
+                                    "pattern": "minecraft:sentry"
+                                },
+                                "minecraft:dyed_color": 8439583,
+                                "minecraft:enchantments": {
+                                    "infinity": 1,
+                                    "loyalty": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763244517144",
+                                        "type": "scale",
+                                        "amount": -0.12,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "equip_sound": "entity.player.levelup",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "green",
+                                    "italic": false,
+                                    "text": "Elf Hat"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "dark_red",
+                                    "italic": false,
+                                    "text": "Don't unionise"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:redstone",
+                                    "pattern": "minecraft:sentry"
+                                },
+                                "minecraft:dyed_color": 8439583,
+                                "minecraft:enchantments": {
+                                    "infinity": 1,
+                                    "loyalty": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763245675450",
+                                        "type": "scale",
+                                        "amount": -0.12,
+                                        "operation": "add_value",
+                                        "slot": "chest"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "chest",
+                                    "equip_sound": "entity.player.levelup",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "green",
+                                    "italic": false,
+                                    "text": "Elf Jumper"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "dark_red",
+                                    "italic": false,
+                                    "bold": true,
+                                    "text": "Don't Unionise"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:redstone",
+                                    "pattern": "minecraft:sentry"
+                                },
+                                "minecraft:dyed_color": 8439583,
+                                "minecraft:enchantments": {
+                                    "infinity": 1,
+                                    "loyalty": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763245047416",
+                                        "type": "scale",
+                                        "amount": -0.12,
+                                        "operation": "add_value",
+                                        "slot": "legs"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "legs",
+                                    "equip_sound": "entity.player.levelup",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "green",
+                                    "italic": false,
+                                    "text": "Elf Pants"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "dark_red",
+                                    "italic": false,
+                                    "bold": true,
+                                    "text": "Don't unionise!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:redstone",
+                                    "pattern": "minecraft:sentry"
+                                },
+                                "minecraft:dyed_color": 8439583,
+                                "minecraft:enchantments": {
+                                    "infinity": 1,
+                                    "loyalty": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763245174731",
+                                        "type": "scale",
+                                        "amount": -0.12,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "equip_sound": "entity.player.levelup",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "green",
+                                    "italic": false,
+                                    "text": "Elf Boots"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "dark_red",
+                                    "bold": true,
+                                    "underlined": true,
+                                    "text": "DON'T UNIONISE!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
