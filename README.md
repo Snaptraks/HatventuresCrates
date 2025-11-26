@@ -28,15 +28,19 @@ minecraft:give @p chest[container_loot={loot_table:"hvc:enchantmentcrate"},lore=
 ```
 minecraft:give @p chest[container_loot={loot_table:"hvc:flowercrate"},custom_name=[{"color":"#FFFFFF","text":"F"},{"color":"#FEFFD2","text":"l"},{"color":"#FCFFA4","text":"o"},{"color":"#FBFF77","text":"w"},{"color":"#F9FF49","text":"e"},{"color":"#F8FF1C","text":"r "},{"color":"#F8FF1C","text":"C"},{"color":"#F9FF49","text":"r"},{"color":"#FBFF77","text":"a"},{"color":"#FCFFA4","text":"t"},{"color":"#FFFFFF","text":"e"}],lore=[{"color":"dark_purple","text":"What is inside??"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
 ```
-- Rare Crate
-```
-minecraft:give @p chest[container_loot={loot_table:"hvc:rarecrate"},custom_name=[{"color":"#FF0000","text":"R"},{"color":"#FC5500","text":"a"},{"color":"#FAAA00","text":"r"},{"color":"#F7FF00","text":"e "},{"color":"#B6FF00","text":"C"},{"color":"#74FF00","text":"r"},{"color":"#33FF00","text":"a"},{"color":"#22AA55","text":"t"},{"color":"#0000FF","text":"e"}],lore=[{"color":"dark_purple","text":"What is inside??"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
-```
 - Uncommon Crate
 ```
 minecraft:give @p chest[container_loot={loot_table:"hvc:uncommoncrate"},lore=[{"color":"dark_purple","text":"What is inside??"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}],custom_name=[{"color":"#004DFF","text":"U"},{"color":"#144DFF","text":"n"},{"color":"#274DFF","text":"c"},{"color":"#3B4DFF","text":"o"},{"color":"#4E4EFF","text":"m"},{"color":"#624EFF","text":"m"},{"color":"#764EFF","text":"o"},{"color":"#894EFF","text":"n "},{"color":"#9D4EFF","text":"C"},{"color":"#B14EFF","text":"r"},{"color":"#C44FFF","text":"a"},{"color":"#D84FFF","text":"t"},{"color":"#FF4FFF","text":"e"}]] 1
 ```
+- Rare Crate
+```
+minecraft:give @p chest[container_loot={loot_table:"hvc:rarecrate"},custom_name=[{"color":"#FF0000","text":"R"},{"color":"#FC5500","text":"a"},{"color":"#FAAA00","text":"r"},{"color":"#F7FF00","text":"e "},{"color":"#B6FF00","text":"C"},{"color":"#74FF00","text":"r"},{"color":"#33FF00","text":"a"},{"color":"#22AA55","text":"t"},{"color":"#0000FF","text":"e"}],lore=[{"color":"dark_purple","text":"What is inside??"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
+```
+- Legendary Crate
+```
+minecraft:give @p chest[container_loot={loot_table:"hvc:legendarycrate"},custom_name=[{"color":"#FFFB00","text":"L"},{"color":"#FEEF03","text":"e"},{"color":"#FDE206","text":"g"},{"color":"#FCD608","text":"e"},{"color":"#FBC90B","text":"n"},{"color":"#FABD0E","text":"d"},{"color":"#F9B011","text":"a"},{"color":"#F9A414","text":"r"},{"color":"#F89716","text":"y "},{"color":"#F78B19","text":"C"},{"color":"#F67E1C","text":"r"},{"color":"#F5721F","text":"a"},{"color":"#F46521","text":"t"},{"color":"#F24C27","text":"e"}],lore=[{"color":"dark_purple","text":"What is inside??"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
+```
 - Toybox
 ```
-give @p chest[container_loot={loot_table:"hvc:toybox"},custom_name=[{"color":"#DA291C","text":"T"},{"color":"#E66313","text":"o"},{"color":"#F39D09","text":"y"},{"color":"#FFD700","text":"b"},{"color":"#FFE455","text":"o"},{"color":"#FFFFFF","text":"x"}],lore=[{"color":"red","text":"Time to play!"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
+minecraft:give @p chest[container_loot={loot_table:"hvc:toybox"},custom_name=[{"color":"#DA291C","text":"T"},{"color":"#E66313","text":"o"},{"color":"#F39D09","text":"y"},{"color":"#FFD700","text":"b"},{"color":"#FFE455","text":"o"},{"color":"#FFFFFF","text":"x"}],lore=[{"color":"red","text":"Time to play!"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
 ```
