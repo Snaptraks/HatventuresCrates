@@ -60,7 +60,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:enchanted_book",
+                    "name": "minecraft:diamond_pickaxe",
                     "functions": [
                         {
                             "function": "set_count",
@@ -69,7 +69,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:stored_enchantments": {
+                                "minecraft:enchantments": {
                                     "fortune": 4
                                 }
                             }
@@ -79,7 +79,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:enchanted_book",
+                    "name": "minecraft:diamond_sword",
                     "functions": [
                         {
                             "function": "set_count",
@@ -88,7 +88,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:stored_enchantments": {
+                                "minecraft:enchantments": {
                                     "looting": 4
                                 }
                             }
@@ -98,7 +98,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:enchanted_book",
+                    "name": "minecraft:fishing_rod",
                     "functions": [
                         {
                             "function": "set_count",
@@ -107,7 +107,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:stored_enchantments": {
+                                "minecraft:enchantments": {
                                     "lure": 5
                                 }
                             }
@@ -117,7 +117,7 @@
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:enchanted_book",
+                    "name": "minecraft:diamond_helmet",
                     "functions": [
                         {
                             "function": "set_count",
@@ -126,7 +126,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:stored_enchantments": {
+                                "minecraft:enchantments": {
                                     "respiration": 10
                                 }
                             }
