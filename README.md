@@ -44,3 +44,24 @@ minecraft:give @p chest[container_loot={loot_table:"hvc:legendarycrate"},custom_
 ```
 minecraft:give @p chest[container_loot={loot_table:"hvc:toybox"},custom_name=[{"color":"#DA291C","text":"T"},{"color":"#E66313","text":"o"},{"color":"#F39D09","text":"y"},{"color":"#FFD700","text":"b"},{"color":"#FFE455","text":"o"},{"color":"#FFFFFF","text":"x"}],lore=[{"color":"red","text":"Time to play!"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
 ```
+
+## Development
+
+To easily add to the loot tables, one easy way is to have the repo stored in your world's ``datapack`` folder, but it gets difficult to navigate to it when it's needed (since it will often be stored in your ``%appdata%\.minecraft\saves\world_name\datapacks``).
+
+One solution is to clone the repo in an easy to access directory (such as ``~/Documents``) and create a symbolic link between the repo's directory and your world's ``datapacks`` directory.
+
+```
+git clone https://github.com/Snaptraks/HatventuresCrates.git
+```
+or simply download the .zip and extract it.
+
+On Windows, in an admin PowerShell window:
+```pwsh
+New-Item -Path "%appdata%\.minecraft\saves\1_21_10 Crates\datapacks\hvc" -ItemType SymbolicLink -Value "full\path\to\HatventuresCrates"
+```
+
+Now Minecraft will show a warning and not load the world, since it detects a symbolic link inside the world's folder.
+You can [read here](https://help.minecraft.net/hc/en-us/articles/16165590199181) about the reasoning behind it, but in short, you will need to create a file named ``allowed_symlinks.txt`` inside your Minecraft folder (``%appdata%\.minecraft``), and add a line with ``full\path\to\HatventuresCrates`` (the path after ``-Value`` in the PowerShell command above).
+
+You can now freely edit the files in the repo, and they will get automatically synced to your world directory (provided you do ``/reload`` while the world is loaded)!
