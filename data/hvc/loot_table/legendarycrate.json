@@ -238,6 +238,149 @@
                             "mode": "append"
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "quick_charge": 5,
+                                    "multishot": 1,
+                                    "infinity": 1
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:golden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:unbreakable": {},
+                                "minecraft:tool": {
+                                    "default_mining_speed": 1000,
+                                    "rules": [
+                                        {
+                                            "blocks": "deepslate"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#C2C2C2",
+                                    "text": "G"
+                                },
+                                {
+                                    "color": "#BFBFBF",
+                                    "text": "r"
+                                },
+                                {
+                                    "color": "#BCBCBC",
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#B9B9B9",
+                                    "text": "n"
+                                },
+                                {
+                                    "color": "#B7B7B7",
+                                    "text": "d"
+                                },
+                                {
+                                    "color": "#B4B4B4",
+                                    "text": "p"
+                                },
+                                {
+                                    "color": "#B1B1B1",
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#AEAEAE",
+                                    "text": "p"
+                                },
+                                {
+                                    "color": "#ABABAB",
+                                    "text": "p"
+                                },
+                                {
+                                    "color": "#A8A8A8",
+                                    "text": "y"
+                                },
+                                {
+                                    "color": "#A6A6A6",
+                                    "text": "'"
+                                },
+                                {
+                                    "color": "#A3A3A3",
+                                    "text": "s "
+                                },
+                                {
+                                    "color": "#A0A0A0",
+                                    "text": "P"
+                                },
+                                {
+                                    "color": "#9D9D9D",
+                                    "text": "i"
+                                },
+                                {
+                                    "color": "#9A9A9A",
+                                    "text": "c"
+                                },
+                                {
+                                    "color": "#979797",
+                                    "text": "k"
+                                },
+                                {
+                                    "color": "#959595",
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#929292",
+                                    "text": "x"
+                                },
+                                {
+                                    "color": "#8C8C8C",
+                                    "text": "e"
+                                }
+                            ],
+                            "target": "item_name"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "dark_purple",
+                                    "text": "Cuts through Deepslate like butter,"
+                                },
+                                {
+                                    "color": "dark_purple",
+                                    "text": "terrible for anything else though."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
                 }
             ]
         }
