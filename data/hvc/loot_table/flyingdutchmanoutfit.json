@@ -1,0 +1,818 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:emerald",
+                                    "pattern": "minecraft:tide"
+                                },
+                                "minecraft:dyed_color": 1908001,
+                                "minecraft:enchantments": {
+                                    "aqua_affinity": 1,
+                                    "respiration": 10,
+                                    "unbreaking": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763326025053",
+                                        "type": "scale",
+                                        "amount": 0.25,
+                                        "operation": "add_value",
+                                        "slot": "head"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "head",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#3660DD",
+                                    "italic": false,
+                                    "text": "T"
+                                },
+                                {
+                                    "color": "#3465D6",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#336AD0",
+                                    "italic": false,
+                                    "text": "e "
+                                },
+                                {
+                                    "color": "#316FC9",
+                                    "italic": false,
+                                    "text": "H"
+                                },
+                                {
+                                    "color": "#2F74C2",
+                                    "italic": false,
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#2D78BB",
+                                    "italic": false,
+                                    "text": "t "
+                                },
+                                {
+                                    "color": "#2C7DB5",
+                                    "italic": false,
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#2A82AE",
+                                    "italic": false,
+                                    "text": "f "
+                                },
+                                {
+                                    "color": "#2887A7",
+                                    "italic": false,
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#278CA1",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#25919A",
+                                    "italic": false,
+                                    "text": "e "
+                                },
+                                {
+                                    "color": "#239693",
+                                    "italic": false,
+                                    "text": "F"
+                                },
+                                {
+                                    "color": "#219B8C",
+                                    "italic": false,
+                                    "text": "l"
+                                },
+                                {
+                                    "color": "#209F86",
+                                    "italic": false,
+                                    "text": "y"
+                                },
+                                {
+                                    "color": "#1EA47F",
+                                    "italic": false,
+                                    "text": "i"
+                                },
+                                {
+                                    "color": "#1CA978",
+                                    "italic": false,
+                                    "text": "n"
+                                },
+                                {
+                                    "color": "#1AAE71",
+                                    "italic": false,
+                                    "text": "g "
+                                },
+                                {
+                                    "color": "#19B36B",
+                                    "italic": false,
+                                    "text": "D"
+                                },
+                                {
+                                    "color": "#17B864",
+                                    "italic": false,
+                                    "text": "u"
+                                },
+                                {
+                                    "color": "#15BD5D",
+                                    "italic": false,
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#14C257",
+                                    "italic": false,
+                                    "text": "c"
+                                },
+                                {
+                                    "color": "#12C650",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#10CB49",
+                                    "italic": false,
+                                    "text": "m"
+                                },
+                                {
+                                    "color": "#0ED042",
+                                    "italic": false,
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#0BDA35",
+                                    "italic": false,
+                                    "text": "n"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Wearing this, you'll be decked out!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:dyed_color": 1908001,
+                                "minecraft:trim": {
+                                    "material": "minecraft:emerald",
+                                    "pattern": "minecraft:tide"
+                                },
+                                "minecraft:enchantments": {
+                                    "projectile_protection": 10
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "luck",
+                                        "type": "luck",
+                                        "amount": 10,
+                                        "operation": "add_value",
+                                        "slot": "chest"
+                                    },
+                                    {
+                                        "id": "scale",
+                                        "type": "scale",
+                                        "amount": 0.25,
+                                        "operation": "add_value",
+                                        "slot": "chest"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "chest",
+                                    "damage_on_hurt": true
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#3660DD",
+                                    "italic": false,
+                                    "text": "T"
+                                },
+                                {
+                                    "color": "#3465D7",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#3369D1",
+                                    "italic": false,
+                                    "text": "e "
+                                },
+                                {
+                                    "color": "#316ECA",
+                                    "italic": false,
+                                    "text": "S"
+                                },
+                                {
+                                    "color": "#3072C4",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#2E77BE",
+                                    "italic": false,
+                                    "text": "i"
+                                },
+                                {
+                                    "color": "#2C7BB8",
+                                    "italic": false,
+                                    "text": "r"
+                                },
+                                {
+                                    "color": "#2B80B1",
+                                    "italic": false,
+                                    "text": "t "
+                                },
+                                {
+                                    "color": "#2984AB",
+                                    "italic": false,
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#2889A5",
+                                    "italic": false,
+                                    "text": "f "
+                                },
+                                {
+                                    "color": "#268D9F",
+                                    "italic": false,
+                                    "text": "T"
+                                },
+                                {
+                                    "color": "#249299",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#239692",
+                                    "italic": false,
+                                    "text": "e "
+                                },
+                                {
+                                    "color": "#219B8C",
+                                    "italic": false,
+                                    "text": "F"
+                                },
+                                {
+                                    "color": "#209F86",
+                                    "italic": false,
+                                    "text": "l"
+                                },
+                                {
+                                    "color": "#1EA480",
+                                    "italic": false,
+                                    "text": "y"
+                                },
+                                {
+                                    "color": "#1DA879",
+                                    "italic": false,
+                                    "text": "i"
+                                },
+                                {
+                                    "color": "#1BAD73",
+                                    "italic": false,
+                                    "text": "n"
+                                },
+                                {
+                                    "color": "#19B16D",
+                                    "italic": false,
+                                    "text": "g "
+                                },
+                                {
+                                    "color": "#18B667",
+                                    "italic": false,
+                                    "text": "D"
+                                },
+                                {
+                                    "color": "#16BA61",
+                                    "italic": false,
+                                    "text": "u"
+                                },
+                                {
+                                    "color": "#15BF5A",
+                                    "italic": false,
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#13C354",
+                                    "italic": false,
+                                    "text": "c"
+                                },
+                                {
+                                    "color": "#11C84E",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#10CC48",
+                                    "italic": false,
+                                    "text": "m"
+                                },
+                                {
+                                    "color": "#0ED141",
+                                    "italic": false,
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#0BDA35",
+                                    "italic": false,
+                                    "text": "n"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "light_purple",
+                                    "text": "A lovely chest-plate."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:dyed_color": 1908001,
+                                "minecraft:trim": {
+                                    "material": "minecraft:emerald",
+                                    "pattern": "minecraft:tide"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "scale",
+                                        "type": "scale",
+                                        "amount": 0.25,
+                                        "operation": "add_value",
+                                        "slot": "legs"
+                                    },
+                                    {
+                                        "id": "step_height",
+                                        "type": "step_height",
+                                        "amount": 1.2,
+                                        "operation": "add_value",
+                                        "slot": "legs"
+                                    },
+                                    {
+                                        "id": "safe_fall_distance",
+                                        "type": "safe_fall_distance",
+                                        "amount": 6,
+                                        "operation": "add_value",
+                                        "slot": "legs"
+                                    },
+                                    {
+                                        "id": "jump_strength",
+                                        "type": "jump_strength",
+                                        "amount": 0.15,
+                                        "operation": "add_value",
+                                        "slot": "legs"
+                                    }
+                                ],
+                                "minecraft:enchantments": {
+                                    "swift_sneak": 3
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#3660DD",
+                                    "italic": false,
+                                    "text": "T"
+                                },
+                                {
+                                    "color": "#3564D8",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#3368D3",
+                                    "italic": false,
+                                    "text": "e "
+                                },
+                                {
+                                    "color": "#326BCD",
+                                    "italic": false,
+                                    "text": "P"
+                                },
+                                {
+                                    "color": "#316FC8",
+                                    "italic": false,
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#2F73C3",
+                                    "italic": false,
+                                    "text": "n"
+                                },
+                                {
+                                    "color": "#2E77BE",
+                                    "italic": false,
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#2D7BB8",
+                                    "italic": false,
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#2B7FB3",
+                                    "italic": false,
+                                    "text": "l"
+                                },
+                                {
+                                    "color": "#2A82AE",
+                                    "italic": false,
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#2986A9",
+                                    "italic": false,
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#278AA3",
+                                    "italic": false,
+                                    "text": "n"
+                                },
+                                {
+                                    "color": "#268E9E",
+                                    "italic": false,
+                                    "text": "s "
+                                },
+                                {
+                                    "color": "#259299",
+                                    "italic": false,
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#239594",
+                                    "italic": false,
+                                    "text": "f "
+                                },
+                                {
+                                    "color": "#22998E",
+                                    "italic": false,
+                                    "text": "T"
+                                },
+                                {
+                                    "color": "#219D89",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#1FA184",
+                                    "italic": false,
+                                    "text": "e "
+                                },
+                                {
+                                    "color": "#1EA57F",
+                                    "italic": false,
+                                    "text": "F"
+                                },
+                                {
+                                    "color": "#1CA879",
+                                    "italic": false,
+                                    "text": "l"
+                                },
+                                {
+                                    "color": "#1BAC74",
+                                    "italic": false,
+                                    "text": "y"
+                                },
+                                {
+                                    "color": "#1AB06F",
+                                    "italic": false,
+                                    "text": "i"
+                                },
+                                {
+                                    "color": "#18B46A",
+                                    "italic": false,
+                                    "text": "n"
+                                },
+                                {
+                                    "color": "#17B864",
+                                    "italic": false,
+                                    "text": "g "
+                                },
+                                {
+                                    "color": "#16BC5F",
+                                    "italic": false,
+                                    "text": "D"
+                                },
+                                {
+                                    "color": "#14BF5A",
+                                    "italic": false,
+                                    "text": "u"
+                                },
+                                {
+                                    "color": "#13C355",
+                                    "italic": false,
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#12C74F",
+                                    "italic": false,
+                                    "text": "c"
+                                },
+                                {
+                                    "color": "#10CB4A",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#0FCF45",
+                                    "italic": false,
+                                    "text": "m"
+                                },
+                                {
+                                    "color": "#0ED240",
+                                    "italic": false,
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#0BDA35",
+                                    "italic": false,
+                                    "text": "n"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "light_purple",
+                                    "text": "Wearing these will give you your Sea Legs!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:emerald",
+                                    "pattern": "minecraft:tide"
+                                },
+                                "minecraft:dyed_color": 1908001,
+                                "minecraft:enchantments": {
+                                    "depth_strider": 3,
+                                    "frost_walker": 2,
+                                    "unbreaking": 3
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763326350304",
+                                        "type": "scale",
+                                        "amount": 0.25,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#3660DD",
+                                    "italic": false,
+                                    "text": "T"
+                                },
+                                {
+                                    "color": "#3465D7",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#3369D1",
+                                    "italic": false,
+                                    "text": "e "
+                                },
+                                {
+                                    "color": "#316ECA",
+                                    "italic": false,
+                                    "text": "B"
+                                },
+                                {
+                                    "color": "#3072C4",
+                                    "italic": false,
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#2E77BE",
+                                    "italic": false,
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#2C7BB8",
+                                    "italic": false,
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#2B80B1",
+                                    "italic": false,
+                                    "text": "s "
+                                },
+                                {
+                                    "color": "#2984AB",
+                                    "italic": false,
+                                    "text": "o"
+                                },
+                                {
+                                    "color": "#2889A5",
+                                    "italic": false,
+                                    "text": "f "
+                                },
+                                {
+                                    "color": "#268D9F",
+                                    "italic": false,
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#249299",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#239692",
+                                    "italic": false,
+                                    "text": "e "
+                                },
+                                {
+                                    "color": "#219B8C",
+                                    "italic": false,
+                                    "text": "F"
+                                },
+                                {
+                                    "color": "#209F86",
+                                    "italic": false,
+                                    "text": "l"
+                                },
+                                {
+                                    "color": "#1EA480",
+                                    "italic": false,
+                                    "text": "y"
+                                },
+                                {
+                                    "color": "#1DA879",
+                                    "italic": false,
+                                    "text": "i"
+                                },
+                                {
+                                    "color": "#1BAD73",
+                                    "italic": false,
+                                    "text": "n"
+                                },
+                                {
+                                    "color": "#19B16D",
+                                    "italic": false,
+                                    "text": "g "
+                                },
+                                {
+                                    "color": "#18B667",
+                                    "italic": false,
+                                    "text": "D"
+                                },
+                                {
+                                    "color": "#16BA61",
+                                    "italic": false,
+                                    "text": "u"
+                                },
+                                {
+                                    "color": "#15BF5A",
+                                    "italic": false,
+                                    "text": "t"
+                                },
+                                {
+                                    "color": "#13C354",
+                                    "italic": false,
+                                    "text": "c"
+                                },
+                                {
+                                    "color": "#11C84E",
+                                    "italic": false,
+                                    "text": "h"
+                                },
+                                {
+                                    "color": "#10CC48",
+                                    "italic": false,
+                                    "text": "m"
+                                },
+                                {
+                                    "color": "#0ED141",
+                                    "italic": false,
+                                    "text": "a"
+                                },
+                                {
+                                    "color": "#0BDA35",
+                                    "italic": false,
+                                    "text": "n"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Arr, these be some salty clogs!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

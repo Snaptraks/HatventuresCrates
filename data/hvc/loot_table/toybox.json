@@ -9,374 +9,12 @@
                     "value": "hvc:elfoutfit"
                 },
                 {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:leather_helmet",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:trim": {
-                                    "material": "minecraft:emerald",
-                                    "pattern": "minecraft:tide"
-                                },
-                                "minecraft:dyed_color": 1908001,
-                                "minecraft:enchantments": {
-                                    "aqua_affinity": 1,
-                                    "respiration": 10,
-                                    "unbreaking": 3
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "id": "1763326025053",
-                                        "type": "scale",
-                                        "amount": 0.25,
-                                        "operation": "add_value",
-                                        "slot": "head"
-                                    }
-                                ],
-                                "minecraft:equippable": {
-                                    "slot": "head",
-                                    "asset_id": "minecraft:leather",
-                                    "damage_on_hurt": false
-                                }
-                            }
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "color": "#3660DD",
-                                    "text": "T",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#3465D6",
-                                    "text": "h",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#336AD0",
-                                    "text": "e ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#316FC9",
-                                    "text": "H",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2F74C2",
-                                    "text": "a",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2D78BB",
-                                    "text": "t ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2C7DB5",
-                                    "text": "o",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2A82AE",
-                                    "text": "f ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2887A7",
-                                    "text": "t",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#278CA1",
-                                    "text": "h",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#25919A",
-                                    "text": "e ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#239693",
-                                    "text": "F",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#219B8C",
-                                    "text": "l",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#209F86",
-                                    "text": "y",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#1EA47F",
-                                    "text": "i",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#1CA978",
-                                    "text": "n",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#1AAE71",
-                                    "text": "g ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#19B36B",
-                                    "text": "D",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#17B864",
-                                    "text": "u",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#15BD5D",
-                                    "text": "t",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#14C257",
-                                    "text": "c",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#12C650",
-                                    "text": "h",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#10CB49",
-                                    "text": "m",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#0ED042",
-                                    "text": "a",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#0BDA35",
-                                    "text": "n",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "italic": false,
-                                    "text": "Wearing this, you'll be decked out!"
-                                }
-                            ],
-                            "mode": "append"
-                        }
-                    ]
+                    "type": "minecraft:loot_table",
+                    "value": "hvc:flyingdutchmanoutfit"
                 },
                 {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "minecraft:leather_boots",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
-                            "function": "set_components",
-                            "components": {
-                                "minecraft:trim": {
-                                    "material": "minecraft:emerald",
-                                    "pattern": "minecraft:tide"
-                                },
-                                "minecraft:dyed_color": 1908001,
-                                "minecraft:enchantments": {
-                                    "depth_strider": 3,
-                                    "frost_walker": 2,
-                                    "unbreaking": 3
-                                },
-                                "minecraft:attribute_modifiers": [
-                                    {
-                                        "id": "1763326350304",
-                                        "type": "scale",
-                                        "amount": 0.25,
-                                        "operation": "add_value",
-                                        "slot": "feet"
-                                    }
-                                ],
-                                "minecraft:equippable": {
-                                    "slot": "feet",
-                                    "asset_id": "minecraft:leather",
-                                    "damage_on_hurt": false
-                                }
-                            }
-                        },
-                        {
-                            "function": "set_name",
-                            "name": [
-                                {
-                                    "color": "#3660DD",
-                                    "text": "T",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#3465D7",
-                                    "text": "h",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#3369D1",
-                                    "text": "e ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#316ECA",
-                                    "text": "B",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#3072C4",
-                                    "text": "o",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2E77BE",
-                                    "text": "o",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2C7BB8",
-                                    "text": "t",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2B80B1",
-                                    "text": "s ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2984AB",
-                                    "text": "o",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#2889A5",
-                                    "text": "f ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#268D9F",
-                                    "text": "t",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#249299",
-                                    "text": "h",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#239692",
-                                    "text": "e ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#219B8C",
-                                    "text": "F",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#209F86",
-                                    "text": "l",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#1EA480",
-                                    "text": "y",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#1DA879",
-                                    "text": "i",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#1BAD73",
-                                    "text": "n",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#19B16D",
-                                    "text": "g ",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#18B667",
-                                    "text": "D",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#16BA61",
-                                    "text": "u",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#15BF5A",
-                                    "text": "t",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#13C354",
-                                    "text": "c",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#11C84E",
-                                    "text": "h",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#10CC48",
-                                    "text": "m",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#0ED141",
-                                    "text": "a",
-                                    "italic": false
-                                },
-                                {
-                                    "color": "#0BDA35",
-                                    "text": "n",
-                                    "italic": false
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "italic": false,
-                                    "text": "Arr, these be some salty clogs!"
-                                }
-                            ],
-                            "mode": "append"
-                        }
-                    ]
+                    "type": "minecraft:loot_table",
+                    "value": "hvc:flashyoutfit"
                 },
                 {
                     "type": "minecraft:item",
@@ -866,38 +504,47 @@
                             "name": [
                                 {
                                     "color": "#531EE6",
+                                    "italic": false,
                                     "text": "M"
                                 },
                                 {
                                     "color": "#4E2BE1",
+                                    "italic": false,
                                     "text": "o"
                                 },
                                 {
                                     "color": "#4939DD",
+                                    "italic": false,
                                     "text": "o"
                                 },
                                 {
                                     "color": "#4346D8",
+                                    "italic": false,
                                     "text": "n "
                                 },
                                 {
                                     "color": "#3E53D3",
+                                    "italic": false,
                                     "text": "B"
                                 },
                                 {
                                     "color": "#3961CF",
+                                    "italic": false,
                                     "text": "o"
                                 },
                                 {
                                     "color": "#346ECA",
+                                    "italic": false,
                                     "text": "o"
                                 },
                                 {
                                     "color": "#2E7BC5",
+                                    "italic": false,
                                     "text": "t"
                                 },
                                 {
                                     "color": "#2496BC",
+                                    "italic": false,
                                     "text": "s"
                                 }
                             ]
@@ -996,6 +643,421 @@
                                 {
                                     "italic": false,
                                     "text": "Hold in offhand to hover."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 6
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:swiftness",
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:blindness",
+                                            "amplifier": 1,
+                                            "duration": 3000
+                                        },
+                                        {
+                                            "id": "minecraft:strength",
+                                            "amplifier": 1,
+                                            "duration": 3000
+                                        },
+                                        {
+                                            "id": "minecraft:resistance",
+                                            "amplifier": 1,
+                                            "duration": 3000
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#18e2d5",
+                                    "text": "Snap's Secret Scumble"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "light_purple",
+                                    "text": "Made from apples, well... mostly apples"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 5,
+                                    "saturation": 5,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:health_boost",
+                                                    "amplifier": 5,
+                                                    "duration": 6000
+                                                }
+                                            ],
+                                            "probability": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#ad392c",
+                                    "text": "Twiglets"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "#ad392c",
+                                    "text": "Mmm, yeasty."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:bone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 5,
+                                    "saturation": 5,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 20,
+                                    "sound": "block.note_block.xylophone",
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:play_sound",
+                                            "sound": "entity.skeleton.death"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "white",
+                                    "text": "Mr Skeletal's Xylophone"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:slime_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:slime",
+                                    "Glowing": true,
+                                    "PersistenceRequired": true,
+                                    "Size": 2,
+                                    "wasOnGround": true,
+                                    "equipment": {
+                                        "body": {
+                                            "id": "minecraft:barrel",
+                                            "count": 1,
+                                            "components": {
+                                                "minecraft:container_loot": {
+                                                    "loot_table": "hvc:legendarycrate"
+                                                },
+                                                "minecraft:custom_name": {
+                                                    "color": "green",
+                                                    "text": "Slimy Loot"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "drop_chances": {
+                                        "body": 0.75
+                                    },
+                                    "attributes": [
+                                        {
+                                            "id": "minecraft:scale",
+                                            "base": 5
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "green",
+                                    "text": "King Slime"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "light_purple",
+                                    "text": "Hail to the King, baby!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:food": {
+                                    "nutrition": 10,
+                                    "saturation": 10,
+                                    "can_always_eat": true
+                                },
+                                "minecraft:consumable": {
+                                    "consume_seconds": 1.6,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "minecraft:apply_effects",
+                                            "effects": [
+                                                {
+                                                    "id": "minecraft:instant_damage",
+                                                    "amplifier": 100,
+                                                    "duration": 600
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "red",
+                                    "text": "Cake or Death!"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "light_purple",
+                                    "text": "Cake or Death! Cake or Death!"
+                                },
+                                {
+                                    "color": "light_purple",
+                                    "font": "uniform",
+                                    "text": "With only a 25% chance of Death!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:happy_ghast_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:happy_ghast",
+                                    "Silent": 1,
+                                    "attributes": [
+                                        {
+                                            "id": "minecraft:scale",
+                                            "base": 0.25
+                                        },
+                                        {
+                                            "id": "minecraft:flying_speed",
+                                            "base": 0.2
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "gray",
+                                    "text": "Tiny Happy Ghast"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "light_purple",
+                                    "text": "He's just a lil guy!"
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:netherite_hoe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "block_interaction_range",
+                                        "type": "block_interaction_range",
+                                        "amount": 64,
+                                        "operation": "add_value",
+                                        "slot": "mainhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "#ee1bdc",
+                                    "text": "World's Biggest Hoe"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "light_purple",
+                                    "text": "For all your long distance hoeing needs."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:warden_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:warden",
+                                    "PersistenceRequired": true,
+                                    "NoAI": true,
+                                    "attributes": [
+                                        {
+                                            "id": "minecraft:scale",
+                                            "base": 0.4
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "color": "aqua",
+                                    "text": "Pet Warden"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "color": "light_purple",
+                                    "text": "I'll call him \"Bitey.\""
                                 }
                             ],
                             "mode": "append"
