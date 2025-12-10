@@ -652,6 +652,50 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "1763246419651",
+                                        "type": "gravity",
+                                        "amount": -0.076,
+                                        "operation": "add_value",
+                                        "slot": "offhand"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "italic": false,
+                                    "text": "Feather of Low Gravity"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "text": "Hold in offhand to slowly drop."
+                                }
+                            ],
+                            "mode": "append"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
                     "name": "minecraft:potion",
                     "functions": [
                         {
