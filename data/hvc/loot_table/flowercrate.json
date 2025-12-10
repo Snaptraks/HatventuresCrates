@@ -7,6 +7,17 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "minecraft:lily_pad",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:dandelion",
                     "functions": [
                         {
@@ -265,6 +276,17 @@
                         {
                             "function": "set_count",
                             "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:glow_lichen",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
                         }
                     ]
                 }
