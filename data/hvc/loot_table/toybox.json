@@ -700,38 +700,40 @@
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 6
+                            "count": 3
                         },
                         {
                             "function": "set_components",
                             "components": {
                                 "minecraft:potion_contents": {
-                                    "potion": "minecraft:swiftness",
+                                    "custom_color": 3866623,
                                     "custom_effects": [
                                         {
                                             "id": "minecraft:blindness",
-                                            "amplifier": 1,
-                                            "duration": 3000
-                                        },
-                                        {
-                                            "id": "minecraft:strength",
-                                            "amplifier": 1,
-                                            "duration": 3000
+                                            "duration": 3000,
+                                            "show_icon": true
                                         },
                                         {
                                             "id": "minecraft:resistance",
-                                            "amplifier": 1,
-                                            "duration": 3000
+                                            "duration": 3000,
+                                            "show_icon": true
+                                        },
+                                        {
+                                            "id": "minecraft:strength",
+                                            "duration": 3000,
+                                            "show_icon": true
                                         }
                                     ]
-                                }
+                                },
+                                "minecraft:max_stack_size": 16
                             }
                         },
                         {
                             "function": "set_name",
                             "name": [
                                 {
-                                    "color": "#18e2d5",
+                                    "color": "#18E2D5",
+                                    "italic": false,
                                     "text": "Snap's Secret Scumble"
                                 }
                             ]
@@ -740,8 +742,8 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "color": "light_purple",
-                                    "text": "Made from apples, well... mostly apples"
+                                    "italic": false,
+                                    "text": "Made with apples, well... mostly apples."
                                 }
                             ],
                             "mode": "append"
@@ -916,18 +918,18 @@
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 16
+                            "count": 10
                         },
                         {
                             "function": "set_components",
                             "components": {
+                                "minecraft:enchantment_glint_override": true,
                                 "minecraft:food": {
                                     "nutrition": 10,
                                     "saturation": 10,
                                     "can_always_eat": true
                                 },
                                 "minecraft:consumable": {
-                                    "consume_seconds": 1.6,
                                     "on_consume_effects": [
                                         {
                                             "type": "minecraft:apply_effects",
@@ -937,18 +939,29 @@
                                                     "amplifier": 100,
                                                     "duration": 600
                                                 }
-                                            ]
+                                            ],
+                                            "probability": 0.25
                                         }
                                     ]
-                                }
+                                },
+                                "minecraft:item_model": "minecraft:cake"
                             }
                         },
                         {
                             "function": "set_name",
                             "name": [
                                 {
-                                    "color": "red",
-                                    "text": "Cake or Death!"
+                                    "italic": false,
+                                    "text": "Cake "
+                                },
+                                {
+                                    "color": "#FF0000",
+                                    "italic": false,
+                                    "text": "or"
+                                },
+                                {
+                                    "italic": false,
+                                    "text": " Death"
                                 }
                             ]
                         },
@@ -956,12 +969,12 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "color": "light_purple",
+                                    "italic": false,
                                     "text": "Cake or Death! Cake or Death!"
                                 },
                                 {
-                                    "color": "light_purple",
-                                    "font": "uniform",
+                                    "font": "minecraft:uniform",
+                                    "italic": false,
                                     "text": "With only a 25% chance of Death!"
                                 }
                             ],
