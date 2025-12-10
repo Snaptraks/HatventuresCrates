@@ -207,26 +207,28 @@
                                     "pattern": "minecraft:tide"
                                 },
                                 "minecraft:enchantments": {
-                                    "projectile_protection": 10
+                                    "projectile_protection": 10,
+                                    "unbreaking": 3
                                 },
                                 "minecraft:attribute_modifiers": [
                                     {
-                                        "id": "luck",
-                                        "type": "luck",
-                                        "amount": 10,
+                                        "id": "1764852604694",
+                                        "type": "scale",
+                                        "amount": 0.25,
                                         "operation": "add_value",
                                         "slot": "chest"
                                     },
                                     {
-                                        "id": "scale",
-                                        "type": "scale",
-                                        "amount": 0.25,
+                                        "id": "1764852604693",
+                                        "type": "luck",
+                                        "amount": 10,
                                         "operation": "add_value",
                                         "slot": "chest"
                                     }
                                 ],
                                 "minecraft:equippable": {
                                     "slot": "chest",
+                                    "asset_id": "minecraft:leather",
                                     "damage_on_hurt": true
                                 }
                             }
@@ -375,7 +377,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "color": "light_purple",
+                                    "italic": false,
                                     "text": "A lovely chest-plate."
                                 }
                             ],
@@ -407,36 +409,41 @@
                                 },
                                 "minecraft:attribute_modifiers": [
                                     {
-                                        "id": "scale",
-                                        "type": "scale",
-                                        "amount": 0.25,
-                                        "operation": "add_value",
-                                        "slot": "legs"
-                                    },
-                                    {
-                                        "id": "step_height",
+                                        "id": "1765365284307",
                                         "type": "step_height",
                                         "amount": 1.2,
                                         "operation": "add_value",
                                         "slot": "legs"
                                     },
                                     {
-                                        "id": "safe_fall_distance",
+                                        "id": "1765365284308",
                                         "type": "safe_fall_distance",
                                         "amount": 6,
                                         "operation": "add_value",
                                         "slot": "legs"
                                     },
                                     {
-                                        "id": "jump_strength",
+                                        "id": "1765365284309",
                                         "type": "jump_strength",
                                         "amount": 0.15,
+                                        "operation": "add_value",
+                                        "slot": "legs"
+                                    },
+                                    {
+                                        "id": "1765365284310",
+                                        "type": "scale",
+                                        "amount": 0.25,
                                         "operation": "add_value",
                                         "slot": "legs"
                                     }
                                 ],
                                 "minecraft:enchantments": {
                                     "swift_sneak": 3
+                                },
+                                "minecraft:equippable": {
+                                    "slot": "legs",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
                                 }
                             }
                         },
@@ -609,7 +616,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "color": "light_purple",
+                                    "italic": false,
                                     "text": "Wearing these will give you your Sea Legs!"
                                 }
                             ],
