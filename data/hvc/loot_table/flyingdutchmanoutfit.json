@@ -229,7 +229,7 @@
                                 "minecraft:equippable": {
                                     "slot": "chest",
                                     "asset_id": "minecraft:leather",
-                                    "damage_on_hurt": true
+                                    "damage_on_hurt": false
                                 }
                             }
                         },
