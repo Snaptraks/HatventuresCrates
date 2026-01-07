@@ -2,6 +2,6 @@
     "pack": {
         "description": "HVC Crates Data Pack",
         "min_format": 88,
-        "max_format": 88
+        "max_format": 94
     }
 }
