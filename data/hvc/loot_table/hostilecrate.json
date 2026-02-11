@@ -18,6 +18,17 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "minecraft:evoker_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:ghast_spawn_egg",
                     "functions": [
                         {
@@ -40,6 +51,17 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "minecraft:phantom_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:silverfish_spawn_egg",
                     "functions": [
                         {
@@ -52,6 +74,17 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:skeleton_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:vindicator_spawn_egg",
                     "functions": [
                         {
                             "function": "set_count",

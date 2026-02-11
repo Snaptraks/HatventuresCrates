@@ -18,6 +18,17 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "minecraft:armadillo_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:axolotl_spawn_egg",
                     "functions": [
                         {
@@ -249,7 +260,29 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "minecraft:pufferfish_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:rabbit_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:salmon_spawn_egg",
                     "functions": [
                         {
                             "function": "set_count",
@@ -283,6 +316,17 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:sniffer_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:squid_spawn_egg",
                     "functions": [
                         {
                             "function": "set_count",
