@@ -66,7 +66,7 @@ or simply download the .zip and extract it.
 
 On Windows, in an admin PowerShell window:
 ```pwsh
-New-Item -Path "%appdata%\.minecraft\saves\1_21_10 Crates\datapacks\hvc" -ItemType SymbolicLink -Value "full\path\to\HatventuresCrates"
+New-Item -Path "%appdata%\.minecraft\saves\world_name\datapacks\hvc" -ItemType SymbolicLink -Value "full\path\to\HatventuresCrates"
 ```
 
 Now Minecraft will show a warning and not load the world, since it detects a symbolic link inside the world's folder.
