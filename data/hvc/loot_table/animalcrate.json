@@ -337,6 +337,17 @@
                 {
                     "type": "item",
                     "weight": 1,
+                    "name": "minecraft:sulfur_cube_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
                     "name": "minecraft:turtle_spawn_egg",
                     "functions": [
                         {
