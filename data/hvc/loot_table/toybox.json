@@ -996,7 +996,7 @@
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:happy_ghast",
-                                    "Silent": 1,
+                                    "Silent": true,
                                     "attributes": [
                                         {
                                             "id": "minecraft:scale",
