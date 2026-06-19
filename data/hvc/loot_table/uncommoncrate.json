@@ -5,6 +5,10 @@
             "rolls": 1,
             "entries": [
                 {
+                    "type": "minecraft:loot_table",
+                    "value": "hvc:musicdiscs"
+                },
+                {
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:obsidian",
