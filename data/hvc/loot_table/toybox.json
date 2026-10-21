@@ -20,9 +20,9 @@
                     "type": "minecraft:item",
                     "name": "minecraft:stick",
                     "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -37,7 +37,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "text": "Epic Barge Pole of Poking",
@@ -47,7 +47,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 [
                                     {
@@ -75,16 +75,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:horse_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:horse",
@@ -111,7 +111,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "dark_red",
@@ -121,7 +121,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -133,16 +133,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:tipped_arrow",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 64
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:potion_contents": {
                                     "custom_color": 16710973,
@@ -157,7 +157,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -166,7 +166,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -178,16 +178,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:dragon_head",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:glider": {},
                                 "minecraft:equippable": {
@@ -197,7 +197,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "#DD00E0",
@@ -250,7 +250,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -266,16 +266,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:player_head",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:profile": {
                                     "properties": [
@@ -292,7 +292,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "#bc6924",
@@ -302,7 +302,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -314,16 +314,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:wolf_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:wolf",
@@ -340,7 +340,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "dark_red",
@@ -350,7 +350,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -362,16 +362,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:frog_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:frog",
@@ -387,7 +387,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "green",
@@ -397,7 +397,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -409,16 +409,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:cat_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:cat",
@@ -434,7 +434,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "yellow",
@@ -444,7 +444,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -456,16 +456,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:leather_boots",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:trim": {
                                     "material": "minecraft:redstone",
@@ -500,7 +500,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "#531EE6",
@@ -550,7 +550,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -562,16 +562,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:feather",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -585,7 +585,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -594,7 +594,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -606,16 +606,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:feather",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -629,7 +629,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -638,7 +638,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -653,13 +653,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:feather",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -673,7 +673,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -682,7 +682,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -697,13 +697,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:potion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 3
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:potion_contents": {
                                     "custom_color": 3866623,
@@ -729,7 +729,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "#18E2D5",
@@ -739,7 +739,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -754,13 +754,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:stick",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 5,
@@ -785,7 +785,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "#ad392c",
@@ -794,7 +794,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "color": "#ad392c",
@@ -809,13 +809,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:bone",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 3
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 5,
@@ -835,7 +835,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "white",
@@ -849,13 +849,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:slime_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:slime",
@@ -891,7 +891,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "green",
@@ -900,7 +900,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "color": "light_purple",
@@ -915,13 +915,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:cookie",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 10
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantment_glint_override": true,
                                 "minecraft:food": {
@@ -948,7 +948,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -966,7 +966,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -986,13 +986,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:happy_ghast_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:happy_ghast",
@@ -1011,7 +1011,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "gray",
@@ -1020,7 +1020,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "color": "light_purple",
@@ -1035,13 +1035,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:netherite_hoe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:attribute_modifiers": [
                                     {
@@ -1055,7 +1055,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "#ee1bdc",
@@ -1064,7 +1064,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "color": "light_purple",
@@ -1079,13 +1079,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:warden_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:warden",
@@ -1101,7 +1101,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "aqua",
@@ -1110,7 +1110,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "color": "light_purple",
@@ -1125,13 +1125,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:suspicious_stew",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:food": {
                                     "nutrition": 10,
@@ -1163,7 +1163,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "yellow",
@@ -1178,13 +1178,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:magenta_glazed_terracotta",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:equippable": {
                                     "slot": "head"
@@ -1192,7 +1192,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "light_purple",

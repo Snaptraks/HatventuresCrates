@@ -5,243 +5,243 @@
             "rolls": 4,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_11",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_13",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_5",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_blocks",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_bounce",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_cat",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_chirp",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_creator",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_creator_music_box",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_far",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_lava_chicken",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_mall",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_mellohi",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_otherside",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_pigstep",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_precipice",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_relic",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_stal",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_strad",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_tears",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_wait",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:music_disc_ward",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]

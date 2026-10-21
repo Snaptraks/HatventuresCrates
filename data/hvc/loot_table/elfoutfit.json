@@ -5,16 +5,16 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:leather_helmet",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:trim": {
                                     "material": "minecraft:redstone",
@@ -43,7 +43,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "green",
@@ -53,7 +53,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "set_lore",
                             "lore": [
                                 {
                                     "color": "dark_red",
@@ -71,16 +71,16 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:leather_chestplate",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:trim": {
                                     "material": "minecraft:redstone",
@@ -109,7 +109,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "green",
@@ -119,7 +119,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "set_lore",
                             "lore": [
                                 {
                                     "color": "dark_red",
@@ -138,16 +138,16 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:leather_leggings",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:trim": {
                                     "material": "minecraft:redstone",
@@ -176,7 +176,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "green",
@@ -186,7 +186,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "set_lore",
                             "lore": [
                                 {
                                     "color": "dark_red",
@@ -205,16 +205,16 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:leather_boots",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:trim": {
                                     "material": "minecraft:redstone",
@@ -243,7 +243,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "green",
@@ -253,7 +253,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "set_lore",
                             "lore": [
                                 {
                                     "color": "dark_red",

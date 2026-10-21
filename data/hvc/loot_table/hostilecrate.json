@@ -5,122 +5,122 @@
             "rolls": 2,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:blaze_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:evoker_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:ghast_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:magma_cube_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:phantom_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:silverfish_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:skeleton_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:vindicator_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:zoglin_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:zombie_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_golem_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]

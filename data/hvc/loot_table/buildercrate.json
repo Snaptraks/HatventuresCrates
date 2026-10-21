@@ -8,9 +8,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:cobweb",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 32
                         }
                     ]
@@ -19,9 +19,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:sand",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 64
                         }
                     ]
@@ -30,9 +30,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:clay",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 64
                         }
                     ]
@@ -41,9 +41,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:gilded_blackstone",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 32
                         }
                     ]
@@ -52,9 +52,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:heart_of_the_sea",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
@@ -63,9 +63,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:dark_prismarine",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 32
                         }
                     ]
@@ -74,9 +74,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:budding_amethyst",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
@@ -85,9 +85,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:spore_blossom",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
                     ]
@@ -96,9 +96,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:small_dripleaf",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
                     ]
@@ -107,9 +107,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:lantern",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
                     ]
@@ -118,9 +118,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:soul_lantern",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
                     ]
@@ -129,9 +129,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:calcite",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 64
                         }
                     ]
@@ -140,9 +140,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:prismarine_bricks",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 32
                         }
                     ]
@@ -151,9 +151,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:crimson_stem",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 32
                         }
                     ]
@@ -162,9 +162,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:warped_stem",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 32
                         }
                     ]
@@ -173,9 +173,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:terracotta",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 64
                         }
                     ]
@@ -184,9 +184,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:prismarine",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 32
                         }
                     ]
@@ -195,9 +195,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:rooted_dirt",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 64
                         }
                     ]
@@ -206,9 +206,9 @@
                     "type": "item",
                     "weight": 1,
                     "name": "minecraft:sea_lantern",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]

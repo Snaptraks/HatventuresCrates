@@ -5,287 +5,287 @@
             "rolls": 4,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:lily_pad",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:dandelion",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:poppy",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:blue_orchid",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:allium",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:azure_bluet",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:red_tulip",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:orange_tulip",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:white_tulip",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:pink_tulip",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:oxeye_daisy",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:sunflower",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:lilac",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:rose_bush",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:peony",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:cornflower",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:lily_of_the_valley",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:wildflowers",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:pink_petals",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:wither_rose",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:flowering_azalea",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:spore_blossom",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:closed_eyeblossom",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:torchflower",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:pitcher_plant",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:glow_lichen",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
                     ]

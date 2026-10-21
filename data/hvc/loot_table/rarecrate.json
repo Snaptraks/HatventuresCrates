@@ -5,115 +5,115 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_block",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:diamond_block",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:ancient_debris",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:wither_skeleton_skull",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:totem_of_undying",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:enchanted_golden_apple",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:shulker_shell",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:ghast_tear",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:end_crystal",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:bow",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "infinity": 1,
@@ -126,16 +126,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:bow",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "flame": 1,
@@ -148,16 +148,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:bow",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "knockback": 2,
@@ -173,16 +173,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -193,16 +193,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -213,16 +213,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:trident",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3
@@ -232,16 +232,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_shovel",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -252,16 +252,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_pickaxe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -273,16 +273,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_pickaxe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 1,
@@ -294,16 +294,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_axe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -314,16 +314,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_axe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -335,16 +335,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_sword",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -357,16 +357,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_helmet",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -380,16 +380,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_chestplate",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -401,16 +401,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_leggings",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -422,16 +422,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_boots",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "unbreaking": 3,
@@ -444,12 +444,12 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:diamond_ore",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
                     ]

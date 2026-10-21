@@ -5,49 +5,49 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:heavy_core",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:spawner",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:beacon",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:bow",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "infinity": 1,
@@ -58,16 +58,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:diamond_pickaxe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "fortune": 4
@@ -77,16 +77,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:diamond_sword",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "looting": 4
@@ -96,16 +96,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:fishing_rod",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "lure": 5
@@ -115,16 +115,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:diamond_helmet",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "respiration": 10
@@ -134,27 +134,27 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:netherite_block",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:item_frame",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:item_frame",
@@ -163,7 +163,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "italic": false,
@@ -174,38 +174,38 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:light",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:end_crystal",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:slime_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:entity_data": {
                                     "id": "minecraft:experience_orb",
@@ -214,7 +214,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "green",
@@ -224,7 +224,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
@@ -240,16 +240,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:crossbow",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:enchantments": {
                                     "quick_charge": 5,
@@ -261,16 +261,16 @@
                     ]
                 },
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:golden_pickaxe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:tool": {
                                     "default_mining_speed": 1,
@@ -287,7 +287,7 @@
                             }
                         },
                         {
-                            "function": "set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "color": "#C2C2C2",
@@ -368,7 +368,7 @@
                             ]
                         },
                         {
-                            "function": "set_lore",
+                            "type": "minecraft:set_lore",
                             "lore": [
                                 {
                                     "italic": false,
