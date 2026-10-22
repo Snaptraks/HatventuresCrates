@@ -382,6 +382,68 @@
                             "mode": "append"
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "color": "gold",
+                                    "italic": false,
+                                    "text": "Boots of the Traveller"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:set_components",
+                            "components": {
+                                "minecraft:trim": {
+                                    "material": "minecraft:emerald",
+                                    "pattern": "minecraft:flow"
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "id": "step_height",
+                                        "type": "step_height",
+                                        "amount": 1,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    },
+                                    {
+                                        "id": "jump_strength",
+                                        "type": "jump_strength",
+                                        "amount": 0.2,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    },
+                                    {
+                                        "id": "movement_speed",
+                                        "type": "movement_speed",
+                                        "amount": 0.1,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    },
+                                    {
+                                        "id": "water_movement_efficiency",
+                                        "type": "water_movement_efficiency",
+                                        "amount": 0.1,
+                                        "operation": "add_value",
+                                        "slot": "feet"
+                                    }
+                                ],
+                                "minecraft:equippable": {
+                                    "slot": "feet",
+                                    "equip_sound": "entity.breeze.wind_burst",
+                                    "asset_id": "minecraft:leather",
+                                    "damage_on_hurt": false
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         }
