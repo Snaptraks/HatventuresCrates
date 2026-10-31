@@ -1,0 +1,76 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:golden_carrot",
+        "minecraft:heavy_core",
+        "minecraft:nether_star"
+    ],
+    "category": "misc",
+    "result": {
+        "id": "minecraft:golden_carrot",
+        "count": 1,
+        "components": {
+            "minecraft:lore": [
+                {
+                    "italic": false,
+                    "text": "",
+                    "color": "white"
+                },
+                {
+                    "italic": false,
+                    "text": "Increases the catch rates for:",
+                    "color": "white"
+                },
+                {
+                    "italic": false,
+                    "text": "► 1 Rarity",
+                    "color": "white"
+                },
+                {
+                    "italic": false,
+                    "text": "Boosts Legendary fish.",
+                    "color": "gray"
+                },
+                {
+                    "italic": false,
+                    "text": "",
+                    "color": "white"
+                },
+                {
+                    "italic": false,
+                    "text": "Drop onto a fishing rod to apply,",
+                    "color": "#DADADA"
+                },
+                {
+                    "italic": false,
+                    "extra": [
+                        {
+                            "underlined": true,
+                            "text": "SHIFT"
+                        },
+                        " to apply all."
+                    ],
+                    "text": "or hold ",
+                    "color": "#DADADA"
+                },
+                {
+                    "italic": false,
+                    "text": "",
+                    "color": "white"
+                }
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_name": {
+                "italic": false,
+                "text": "Legendary Lure",
+                "color": "gold"
+            },
+            "minecraft:custom_data": {
+                "evenmorefish": {
+                    "emf-bait": "legendaryLure"
+                }
+            },
+            "minecraft:damage": 0
+        }
+    }
+}

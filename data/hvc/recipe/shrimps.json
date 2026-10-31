@@ -1,0 +1,76 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:nautilus_shell",
+        "minecraft:nautilus_shell",
+        "minecraft:nautilus_shell"
+    ],
+    "category": "misc",
+    "result": {
+        "id": "minecraft:nautilus_shell",
+        "count": 1,
+        "components": {
+            "minecraft:lore": [
+                {
+                    "italic": false,
+                    "text": "",
+                    "color": "white"
+                },
+                {
+                    "italic": false,
+                    "text": "Increases the catch rates for:",
+                    "color": "white"
+                },
+                {
+                    "italic": false,
+                    "text": "► 6 Fish",
+                    "color": "white"
+                },
+                {
+                    "italic": false,
+                    "text": "Boosts specific fish.",
+                    "color": "gray"
+                },
+                {
+                    "italic": false,
+                    "text": "",
+                    "color": "white"
+                },
+                {
+                    "italic": false,
+                    "text": "Drop onto a fishing rod to apply,",
+                    "color": "#DADADA"
+                },
+                {
+                    "italic": false,
+                    "extra": [
+                        {
+                            "underlined": true,
+                            "text": "SHIFT"
+                        },
+                        " to apply all."
+                    ],
+                    "text": "or hold ",
+                    "color": "#DADADA"
+                },
+                {
+                    "italic": false,
+                    "text": "",
+                    "color": "white"
+                }
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_name": {
+                "italic": false,
+                "text": "Shrimps",
+                "color": "#FF7777"
+            },
+            "minecraft:custom_data": {
+                "evenmorefish": {
+                    "emf-bait": "shrimp"
+                }
+            },
+            "minecraft:damage": 0
+        }
+    }
+}
