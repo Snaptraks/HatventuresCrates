@@ -50,7 +50,7 @@ minecraft:give @p chest[container_loot={loot_table:"hvc:smithingcrate"},custom_n
 ```
 - Toybox
 ```
-minecraft:give @p chest[container_loot={loot_table:"hvc:toybox"},custom_name=[{"color":"#DA291C","text":"T"},{"color":"#E66313","text":"o"},{"color":"#F39D09","text":"y"},{"color":"#FFD700","text":"b"},{"color":"#FFE455","text":"o"},{"color":"#FFFFFF","text":"x"}],lore=[{"color":"red","text":"Time to play!"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
+minecraft:give @p trapped_chest[container_loot={loot_table:"hvc:toybox"},custom_name=[{"color":"#DA291C","text":"T"},{"color":"#E66313","text":"o"},{"color":"#F39D09","text":"y"},{"color":"#FFD700","text":"b"},{"color":"#FFE455","text":"o"},{"color":"#FFFFFF","text":"x"}],lore=[{"color":"red","text":"Time to play!"},{"color":"yellow","italic":false,"text":"Place the Crate"},{"color":"yellow","italic":false,"text":"and open it to"},{"color":"yellow","italic":false,"text":"reveal its content."}]] 1
 ```
 
 ## Development
