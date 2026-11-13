@@ -1,0 +1,17 @@
+{
+    "parent": "hvc:root",
+    "display": {
+        "icon": "minecraft:melon_slice",
+        "title": "Melon Bomber",
+        "description": "Die with an inventory full of Melon Slices next to another player",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

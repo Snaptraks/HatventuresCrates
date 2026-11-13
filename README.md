@@ -66,10 +66,10 @@ or simply download the .zip and extract it.
 
 On Windows, in an admin PowerShell window:
 ```pwsh
-New-Item -Path "%appdata%\.minecraft\saves\world_name\datapacks\hvc" -ItemType SymbolicLink -Value "full\path\to\HatventuresCrates"
+New-Item -Path "%appdata%\.minecraft\saves\world_name\datapacks\hvc" -ItemType SymbolicLink -Value "full\path\to\HatventuresDatapack"
 ```
 
 Now Minecraft will show a warning and not load the world, since it detects a symbolic link inside the world's folder.
-You can [read here](https://help.minecraft.net/hc/en-us/articles/16165590199181) about the reasoning behind it, but in short, you will need to create a file named ``allowed_symlinks.txt`` inside your Minecraft folder (``%appdata%\.minecraft``), and add a line with ``full\path\to\HatventuresCrates`` (the path after ``-Value`` in the PowerShell command above).
+You can [read here](https://help.minecraft.net/hc/en-us/articles/16165590199181) about the reasoning behind it, but in short, you will need to create a file named ``allowed_symlinks.txt`` inside your Minecraft folder (``%appdata%\.minecraft``), and add a line with ``full\path\to\HatventuresDatapack`` (the path after ``-Value`` in the PowerShell command above).
 
 You can now freely edit the files in the repo, and they will get automatically synced to your world directory (provided you do ``/reload`` while the world is loaded)!

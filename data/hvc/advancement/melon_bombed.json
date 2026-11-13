@@ -1,0 +1,17 @@
+{
+    "parent": "hvc:root",
+    "display": {
+        "icon": "minecraft:melon_slice",
+        "title": "Melon Bombed",
+        "description": "Get Melon Bombed!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
