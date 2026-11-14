@@ -1,5 +1,5 @@
 {
-    "parent": "hvc:root",
+    "parent": "hvc:melon_hoarder",
     "display": {
         "icon": "minecraft:melon_slice",
         "title": "Melon Bomber",
@@ -7,7 +7,7 @@
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": false
+        "hidden": true
     },
     "criteria": {
         "impossible": {

@@ -10,3 +10,6 @@ scoreboard players set @a[scores={hvc.deaths=1..}] hvc.deaths 0
 
 # Refresh the "full of melon slices" state for everyone else
 execute as @a[scores={hvc.deaths=0}] run function hvc:check_melons
+
+# Grant the melon_hoarder advancement
+execute as @a[tag=hvc.melon_full] run advancement grant @s only hvc:melon_hoarder

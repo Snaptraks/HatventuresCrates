@@ -1,0 +1,17 @@
+{
+    "parent": "hvc:root",
+    "display": {
+        "icon": "minecraft:melon",
+        "title": "Melon Hoarder",
+        "description": "Fill your entire inventory with Melon Slices",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
