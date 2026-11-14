@@ -1,0 +1,25 @@
+{
+    "parent": "hvc:root",
+    "display": {
+        "icon": "minecraft:baked_potato",
+        "title": "Mashd Potats Lover",
+        "description": "Eat some Mashd Potats",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "eat_mashd_potats": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:baked_potato",
+                    "components": {
+                        "custom_name": "Mashd Potats"
+                    }
+                }
+            }
+        }
+    }
+}
